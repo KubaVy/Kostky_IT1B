@@ -85,12 +85,11 @@ namespace Kostky_IT1B
         private void ZobrazKostky()
         {
             ZobrazKostku(k1, kostky[0].Hodnota);
-            kostka1.Content = kostky[0].Hodnota;
-            kostka2.Content = kostky[1].Hodnota;
-            kostka3.Content = kostky[2].Hodnota;
-            kostka4.Content = kostky[3].Hodnota;
-            kostka5.Content = kostky[4].Hodnota;
-            kostka6.Content = kostky[5].Hodnota;
+            ZobrazKostku(k2, kostky[1].Hodnota);
+            ZobrazKostku(k3, kostky[2].Hodnota);
+            ZobrazKostku(k4, kostky[3].Hodnota);
+            ZobrazKostku(k5, kostky[4].Hodnota);
+            ZobrazKostku(k6, kostky[5].Hodnota);
         }
 
         private void btnHod_Click(object sender, RoutedEventArgs e)
